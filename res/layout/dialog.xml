@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:padding="13dp">
+
+	<LinearLayout
+		android:layout_height="45dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="@drawable/dia"
+		android:gravity="center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="xxx"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:id="@+id/dialogTextView1"
+			android:textSize="15sp"
+			android:textColor="#FFFFFF"
+			android:gravity="center"
+			android:layout_margin="8dp"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

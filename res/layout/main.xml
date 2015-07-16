@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:id="@+id/back">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="bottom|center_horizontal"
+		android:orientation="vertical"
+		android:layout_weight="6.0">
+
+		<x.RoundImageView
+			android:layout_height="86dp"
+			android:layout_width="86dp"
+			android:layout_marginBottom="18dp"
+			android:src="@drawable/logo"/>
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="3">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:orientation="vertical"
+			android:id="@+id/content">
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:background="@drawable/tx"
+				android:paddingLeft="15dp"
+				android:paddingRight="11dp"
+				android:paddingTop="6dp"
+				android:paddingBottom="6dp">
+
+				<ImageButton
+					android:layout_height="16dp"
+					android:layout_width="16dp"
+					android:background="@drawable/icon_close"
+					android:id="@+id/clear1"
+					android:layout_centerVertical="true"
+					android:layout_alignParentRight="true"
+					android:layout_marginLeft="8dp"
+					android:scaleType="fitXY"/>
+
+				<EditText
+					android:layout_height="34dp"
+					android:layout_width="match_parent"
+					android:hint="QQ号/手机号/邮箱"
+					android:singleLine="true"
+					android:background="#00FFFFFF"
+					android:textColor="#000000"
+					android:textColorHint="#D1D1D1"
+					android:textSize="16sp"
+					android:id="@+id/main_ac"
+					android:layout_toLeftOf="@id/clear1"
+					android:gravity="center_vertical"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:background="@drawable/tx"
+				android:paddingLeft="15dp"
+				android:paddingRight="11dp"
+				android:paddingTop="6dp"
+				android:paddingBottom="6dp">
+
+				<ImageButton
+					android:layout_height="16dp"
+					android:layout_width="16dp"
+					android:background="@drawable/icon_close"
+					android:id="@+id/clear2"
+					android:layout_centerVertical="true"
+					android:layout_alignParentRight="true"
+					android:layout_marginLeft="8dp"
+					android:scaleType="fitXY"/>
+
+				<EditText
+					android:layout_height="34dp"
+					android:layout_width="match_parent"
+					android:hint="密码"
+					android:singleLine="true"
+					android:background="#00FFFFFF"
+					android:textColor="#000000"
+					android:textColorHint="#D1D1D1"
+					android:textSize="16sp"
+					android:id="@+id/main_pass"
+					android:layout_toLeftOf="@id/clear2"
+					android:gravity="center_vertical"
+					android:inputType="textPassword"/>
+
+			</RelativeLayout>
+
+			<Button
+				android:layout_height="45dp"
+				android:text="登 录"
+				android:layout_width="match_parent"
+				android:layout_margin="15dp"
+				android:background="@drawable/bt"
+				android:textColor="#FFFFFF"
+				android:textSize="20sp"
+				android:id="@+id/main_login_b"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="无法登陆？"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:gravity="bottom"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentLeft="true"
+			android:layout_margin="14dp"
+			android:textColor="#37B1F8"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="新用户"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:gravity="bottom"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:layout_margin="14dp"
+			android:textColor="#37b1f8"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

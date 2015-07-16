@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF"
+	android:gravity="center">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="如果显示不出内容，请重启后重试。"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:textColor="#000000"/>
+
+</LinearLayout>
+
